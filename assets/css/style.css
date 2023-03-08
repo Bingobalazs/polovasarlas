@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Mynerve&family=Tilt+Warp&display=swap');
+
 #polo
 {
     height: 600px;
-    font-family: 'Tilt Warp', cursive;
-
 }
 
 #felirat
+{
+    position: relative;
+    display: block;
+    top: -400px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-family: Tilt Warp;
+    font-size: 350%;
+}
+
+#sorszam
 {
     position: relative;
     display: block;
@@ -14,6 +25,8 @@
     z-index: 1;
     color: white;
     text-align: center;
+    font-family: Tilt Warp;
+    font-size: 500%;
 }
 
 .keret
@@ -38,5 +51,5 @@ h1
 }
 body
 {
-background-image: url('../images/pattern.png');
+    background: url("../images/pattern.png");
 }
