@@ -13,3 +13,7 @@ function Szinvalt(){
     }
     
 }
+function Valt(input, output) {
+    var input = document.getElementById(input).value
+    document.getElementById(output).innerHTML=input
+}
