@@ -14,6 +14,10 @@ function Szinvalt(){
     
 }
 function Valt(input, output) {
-    var input = document.getElementById(input).value
-    document.getElementById(output).innerHTML=input.toUpperCase()
+    var inputvalue = document.getElementById(input).value
+    if (inputvalue > 99) {
+        inputvalue=99
+    }
+    
+    document.getElementById(output).innerHTML=inputvalue.toUpperCase()
 }
